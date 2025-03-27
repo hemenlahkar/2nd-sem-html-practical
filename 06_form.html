@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Subscribe to XYZ News Magazine and Emails</h2>
+    <p>Interest in receiving daily small updates of all latest News? Well, now you can. And best of all, it is free!
+        Just fill out the form and submit it by clicking "send it In" button. We will put you on our mailing list and
+        you will receive your first email in 3-5 days.</p>
+    <hr>
+    <p>Please fill the following boxes to help us send the emails and our news letter:</p>
+    <form>
+        <label for="firstName">First name
+            <input type="text" id="firstName">
+        </label><br>
+        <label for="lastName">Last name
+            <input type="text" id="lastName">
+        </label><br>
+        <label for="business">business
+            <input type="text" id="business">
+        </label>
+        <div>We must have a correct e-mail address to send you the news letter</div>
+        <label for="email">Email
+            <input type="email" id="email">
+        </label><br>
+        <label for="radio">How did you hear about XYZ News Magazine and Emails?<br>
+            <input type="radio" name="radio" id="radio1" checked>
+            <label for="radio">Here on the web</label>
+            <input type="radio" name="radio" id="radio2">
+            <label for="radio">In a magazine</label>
+            <input type="radio" name="radio" id="radio3">
+            <label for="radio">Television</label>
+            <input type="radio" name="radio" id="radio4">
+            <label for="radio">Other</label>
+        </label><br>
+        <label for="check">Would you like to be on our regular mailing list?<br>
+            <input type="checkbox" name="yes" id="yes" checked>
+            <label for="yes">Yes, we love junk emails</label>
+        </label>
+        <hr>
+        <button type="reset">Reset</button>
+        <button type="submit">Send it In</button>
+    </form>
+</body>
+
+</html>
